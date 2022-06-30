@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: orange;
+    color: black;
+    width: 100vw;
+    height: 5em; 
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    width: 30em;
+}
+
+.no-deco{
+    color: black;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.sign-out{
+    width: 10em;
+    height: 3em;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px  black;
+    font-size: 13px;
+}
+
+.profile{
+    font-size: 40px;
+}
+
+.flex-container{
+    display: flex;
+    padding: 30px 50px 10px 100px;
+    width: inherit;
+    height: 100vh;
+    border: 2px solid black;
+    background-color: black;
+}
+
+/* right side of the page */
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+/* User-Card box */
+
+.user-card{
+    width: 25em;
+    height: 20em;
+    background: orange;
+    border: 3px solid orange;
+}
+
+.banner{
+    width: 310;
+    height: 5em;
+    background-color: black;
+}
+
+.user-icon{
+    border: 2px solid black;
+    width: 6em;
+    height: 6em;
+    padding: 5px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+    background-color: orange;
+}
+
+.location{
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+}
+
+.location img{
+    margin-right: 7px;
+}
+.user-info{
+    margin-left: 20px;
+    position: relative;
+    bottom: 45px;
+    width: 20em;
+    height: 13em;
+    font-size: 16px;
+}
+
+.edit{
+    color: black;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+/* Education Section */
+
+.education{
+    border: 2px solid orange;
+    height: 10em;
+    margin-top: 20px;
+    background-color: black;
+    color: orange;
+}
+
+.ed-banner{
+    height: 2.5em;
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.ed-info{
+    padding: 20px;
+}
+
+
+/* left-side of the page */
+
+.left-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Requests Section */
+
+.requests{
+    border: 2px solid orange;
+    height: 13em;
+    width: 18em;
+    color: orange;
+}
+.req-banner{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: orange;
+    height: 3em;
+    color: black;
+    font-size: 18px;
+}
+
+.num-2{
+    margin-right: 5px;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    padding-top: 7px;
+    background-color: black;
+    border-radius: 50%;
+    color: orange;
+    font-weight: bold;
+}
+
+/* Todd Request */
+
+.todd{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-te{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-te img{
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 15px;
+}
+
+.acpt-decl{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 7em;
+}
+
+
+/* Phil Request */
+
+.phil{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-pk{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-pk img{
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 15px;
+}
+
+
+/* Connections Section*/
+
+.connections{
+    border: 2px solid orange;
+    height: 25em;
+    width: 18em;
+    color: orange;
+    margin-top: 30px;
+    background-color: orange;
+}
+
+.conc-banner{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: black;
+    height: 4em;
+    color: orange;
+    font-size: 18px;
+}
+
+.num-418{
+    margin-right: 10px;
+    width: 2.75em;
+    height: 2.75em;
+    text-align: center;
+    background-color: orange;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connected{
+    padding: 10px 0 0 10px;
+    color: black;
+}
+
+
+
+/* Adrien J */
+
+.user-ad{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-ad img{
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 15px;
+}
+
+
+/* Anne J */
+
+.user-aj{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.user-aj img{
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 15px;
+}
+
+/* Alayne T */
+
+.user-at{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.user-at img{
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 15px;
+}
+
+/* Array Y */
+.user-ay{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.user-ay img{
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 15px;
+}
+
+footer{
+    width: inherit;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+footer a{
+    color: black;
+}
+
+
+
+
